@@ -1,0 +1,174 @@
+body {
+    background-color:  rgb(133, 199, 136);
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin: 3rem 3rem 5% 5%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+header > img {
+    display: block;
+    margin: auto;
+    width: 100px;
+    
+}   
+
+nav { 
+    background-color: rgb(38, 135, 127);
+    border-radius: 10px;
+    margin: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 5px;
+}
+
+nav ul {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    align-items: center;    
+    list-style: none;
+    flex-flow: wrap;
+           
+}
+
+nav ul li {
+    flex: 1; 
+    
+}
+
+nav ul li a {
+    color: beige;
+    transition: all 0.3s ease 0s;
+}
+
+nav ul li a:hover {
+    color: rgb(8, 189, 8);
+}
+
+nav ul li .active {
+    color: rgb(78, 214, 78);
+}
+
+section {
+    margin: 2rem;
+}
+
+.text {
+    position: relative;
+    height: 30vh;
+    width: 100%;
+
+}
+
+.text::before {
+    content: "";
+    position: absolute;    
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    border: solid 4px rgb(78, 214, 78);
+    border-radius: 30px;
+    background-image: url("Images/banner2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.6;    
+}
+
+.banner div h1,
+.banner div h2 {
+    color: rgb(6, 94, 94);
+    margin-bottom: 5px;
+    position: relative;
+    text-align: center;
+}
+
+.banner div h3 {
+    margin-top: -3px;
+    position: relative;
+    text-align: center;
+}
+
+
+.article {
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    flex-flow: wrap;
+    
+}
+
+.article article {
+    flex: 1;
+    display: block;
+    margin-left: 15px;
+    border: solid 2px rgb(78, 214, 78);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.664);
+    padding: 10px;
+    color: rgb(2, 27, 25);
+    text-align: center;  
+    
+}
+
+.article article img {
+    width: auto;
+    height: 200px;
+    opacity: 0.75;
+}
+
+.article article p {
+    text-align: justify;
+    white-space: normal;
+}
+
+footer {
+    display: flex;
+    margin-left: 2rem;
+    border: 2px;
+    flex-direction: row;
+    flex-shrink: initial;
+    
+}
+
+footer div {
+    flex: 1;
+       
+}
+
+footer div img {
+    padding-left: 15px;
+}
+
+footer div p {
+    text-decoration-line: overline;
+    text-decoration-color: black;
+}
+
+#topBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 80px;
+    z-index: 99;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: rgb(38, 135, 127);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#topBtn:hover {
+    background-color: rgb(78, 214, 78);
+}
