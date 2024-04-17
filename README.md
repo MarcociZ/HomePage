@@ -4,18 +4,18 @@ The project represents a home page for fictional client Luky-Shrub.
 
 The Home Page that corresponds to criteria, namely:
 - Visual layout:
-  * Navigation bar, Logos, Banner, 3 articles in main zone
+    * Navigation bar, Logos, Banner, 3 articles in main zone
 
 - Semantic structure
 
 - CSS layout
- * Flex or grid
+    * Flex or grid
 
 - CSS styling
- * Fonts, Margins, Backgrounds
+    * Fonts, Margins, Backgrounds
 
 - CSS effects
- * Top button
+    * Top button
   
 
 ## About Client
