@@ -27,3 +27,9 @@ Lucky Shrub was started by a husband and wife team, Jason and Maria, who share a
 ## Technologies
 - HTML
 - CSS
+
+## Video explanation
+
+
+https://github.com/user-attachments/assets/55dc8ea0-a0fa-450b-9187-f655134faa91
+
